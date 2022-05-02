@@ -1,12 +1,21 @@
-# Tags: latest, 9.3.4-0-debian-10-r36, 9.3.4-0, 9.3-debian-10, 9.3
+# Tags: latest, 9.3.4-0-debian-10-r39, 9.3.4-0, 9.3-debian-10, 9.3
 FROM bitnami/jruby:latest
-FROM bitnami/jruby:9.3.4-0-debian-10-r36
+FROM bitnami/jruby:9.3.4-0-debian-10-r39
 FROM bitnami/jruby:9.3.4-0
 FROM bitnami/jruby:9.3-debian-10
 FROM bitnami/jruby:9.3
 
 # Tags: _
 FROM bitnami/jruby:_
+
+# Tags: 9.3.4-0-debian-10-r38
+FROM bitnami/jruby:9.3.4-0-debian-10-r38
+
+# Tags: 9.3.4-0-debian-10-r37
+FROM bitnami/jruby:9.3.4-0-debian-10-r37
+
+# Tags: 9.3.4-0-debian-10-r36
+FROM bitnami/jruby:9.3.4-0-debian-10-r36
 
 # Tags: 9.3.4-0-debian-10-r35
 FROM bitnami/jruby:9.3.4-0-debian-10-r35
@@ -82,18 +91,3 @@ FROM bitnami/jruby:9.3.4-0-debian-10-r12
 
 # Tags: 9.3.4-0-debian-10-r11
 FROM bitnami/jruby:9.3.4-0-debian-10-r11
-
-# Tags: 9.3.4-0-debian-10-r10
-FROM bitnami/jruby:9.3.4-0-debian-10-r10
-
-# Tags: 9.3.4-0-debian-10-r9
-FROM bitnami/jruby:9.3.4-0-debian-10-r9
-
-# Tags: 9.3.4-0-debian-10-r8
-FROM bitnami/jruby:9.3.4-0-debian-10-r8
-
-# Tags: 9.3.4-0-debian-10-r7
-FROM bitnami/jruby:9.3.4-0-debian-10-r7
-
-# Tags: 9.3.4-0-debian-10-r6
-FROM bitnami/jruby:9.3.4-0-debian-10-r6
